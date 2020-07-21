@@ -2,4 +2,26 @@
 <!--suppress ALL -->
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/bottom_navigation" />
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/bottom_navigation"
+    app:startDestination="@id/splashActivity">
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.example.appardito.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <activity
+        android:id="@+id/walkthrought1"
+        android:name="com.example.appardito.walkthrought1"
+        android:label="activity_walkthrought1"
+        tools:layout="@layout/activity_walkthrought1" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.appardito.HomeFragment"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/barangFragment"
+        android:name="com.example.appardito.BarangFragment"
+        android:label="fragment_barang"
+        tools:layout="@layout/fragment_barang" />
+</navigation>
