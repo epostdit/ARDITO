@@ -7,6 +7,7 @@ Kelas               : IF4
 
  */
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -15,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class   ListAdapterMusik(private val list: List<Barang>)
     : RecyclerView.Adapter<MusikViewHolder>() {
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MusikViewHolder {
         val inflater = LayoutInflater.from(parent.context)

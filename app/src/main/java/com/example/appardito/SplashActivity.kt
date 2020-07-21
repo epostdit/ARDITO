@@ -26,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
         //4second splash time
         Handler().postDelayed({
             //start main activity
-            startActivity(Intent(this@SplashActivity,walkthrought1::class.java))
+            startActivity(Intent(this@SplashActivity,RegisterActivity::class.java))
             //finish this activity
             finish()
         },4000)
