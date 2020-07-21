@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         val ic_home = HomeFragment()
         val ic_belanja = BarangFragment()
+        val ic_beli = BeliBarang()
 
         makeCurrentFragment(ic_home)
 
@@ -33,6 +34,7 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId){
                 R.id.ic_home -> makeCurrentFragment(ic_home)
                 R.id.ic_belanja -> makeCurrentFragment(ic_belanja)
+                R.id.ic_beli -> makeCurrentFragment(ic_beli)
             }
             true
         }

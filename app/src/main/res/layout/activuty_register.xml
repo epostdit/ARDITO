@@ -7,21 +7,35 @@
     android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="382dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ardito" />
+
     <EditText
         android:id="@+id/username_edittext_register"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Username"
-        android:paddingLeft="16dp"
         android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#1C1C1C"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,6 +49,8 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingLeft="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#202020"
         app:layout_constraintEnd_toEndOf="@+id/username_edittext_register"
         app:layout_constraintStart_toStartOf="@+id/username_edittext_register"
         app:layout_constraintTop_toBottomOf="@+id/username_edittext_register" />
@@ -49,6 +65,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#1E1E1E"
         app:layout_constraintEnd_toEndOf="@+id/email_edittext_register"
         app:layout_constraintStart_toStartOf="@+id/email_edittext_register"
         app:layout_constraintTop_toBottomOf="@+id/email_edittext_register" />

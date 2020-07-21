@@ -7,14 +7,13 @@ Nama                : Aditya
 Kelas               : IF4
 
  */
-
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.ListAdapter
 import kotlinx.android.synthetic.main.fragment_barang.*
 
 
@@ -22,12 +21,15 @@ data class Barang(val title: String, val desc: String, val image: Int)
 
 class BarangFragment : Fragment() {
 
+
     private val nicCageMusik = listOf(
-        Barang("Avenged Sevenfold", "Save me", R.drawable.a7x),
-        Barang("Avenged Sevenfold", "Almost Easy",  R.drawable.a7x),
-        Barang("Avenged Sevenfold", "So Far Away",  R.drawable.a7x),
-        Barang("Avenged Sevenfold", "Beast and The Harlot",  R.drawable.a7x)
+        Barang("Rp. 55.000 /kg", "Bawang goreng", R.drawable.a7x),
+        Barang("Rp. 35.000 /pack", "Bumbu baso",  R.drawable.a7x),
+        Barang("Rp. 50.000 /pack", "Minyak bawang",  R.drawable.a7x),
+        Barang("Rp. 60.000 /kg", "Cengek kering",  R.drawable.a7x)
     )
+
+
 
 
     override fun onCreateView(
@@ -43,6 +45,9 @@ class BarangFragment : Fragment() {
         list_barang.apply {
             list_barang.layoutManager = LinearLayoutManager(activity)
             list_barang.adapter = ListAdapterMusik(nicCageMusik)
+
         }
+
     }
-}
+
+    }

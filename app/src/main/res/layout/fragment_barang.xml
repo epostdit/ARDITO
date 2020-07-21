@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg5"
+    android:background="@drawable/gradient"
     tools:context="BarangFragment">
 
     <RelativeLayout
@@ -20,6 +20,7 @@
             android:layout_marginStart="0dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="0dp" />
+
     </RelativeLayout>
 
 </FrameLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg5"
+    android:background="@drawable/gradient"
     tools:context=".HomeFragment">
 
     <RelativeLayout
@@ -21,7 +21,7 @@
             android:layout_marginTop="42dp"
             android:layout_marginEnd="75dp"
             android:layout_marginRight="75dp"
-            app:srcCompat="@drawable/a7x" />
+            app:srcCompat="@drawable/ardito" />
 
         <TextView
             android:id="@+id/textView5"
@@ -30,11 +30,11 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="287dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="244dp"
             android:gravity="center_horizontal"
-            android:text="Perkenalkan nama saya Aditya, saya anak ke-2 dari 3 bersaudara, asal saya dari bandung lahir pada tanggal 07 November 1998, namun kedua orang tua saya berasal dari Daerah Solo Jawa Tengah. Hobby saya bermain alat musik, sejak dari SD kelas 6 saya mulai menyukai alat musik drum karena menurut saya bermain drum itu sangat keren dan banyak disukai oleh wanita :)"
+            android:text="Hello... Aplikasi ini menyediakan bahan pangan untuk membuat aneka masakan"
             android:textAlignment="center"
             android:textColor="@android:color/background_light" />
     </RelativeLayout>

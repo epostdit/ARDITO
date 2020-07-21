@@ -32,6 +32,7 @@ class   ListAdapterMusik(private val list: List<Barang>)
 
 }
 
+
 class MusikViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
     RecyclerView.ViewHolder(inflater.inflate(R.layout.list_item_barang, parent, false)) {
     private var mTitleView: TextView? = null

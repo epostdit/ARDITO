@@ -10,17 +10,20 @@
         android:id="@+id/email_edittext_login"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingLeft="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#191919"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,9 +34,11 @@
         android:layout_marginTop="8dp"
         android:background="@android:color/white"
         android:ems="10"
-        android:paddingLeft="16dp"
         android:hint="Password"
         android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#353535"
         app:layout_constraintEnd_toEndOf="@+id/email_edittext_login"
         app:layout_constraintStart_toStartOf="@+id/email_edittext_login"
         app:layout_constraintTop_toBottomOf="@+id/email_edittext_login" />
@@ -64,4 +69,15 @@
         app:layout_constraintEnd_toEndOf="@+id/login_button_login"
         app:layout_constraintStart_toStartOf="@+id/login_button_login"
         app:layout_constraintTop_toBottomOf="@+id/login_button_login" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="382dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ardito" />
 </androidx.constraintlayout.widget.ConstraintLayout>
