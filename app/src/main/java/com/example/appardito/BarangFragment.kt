@@ -23,10 +23,10 @@ class BarangFragment : Fragment() {
 
 
     private val nicCageMusik = listOf(
-        Barang("Rp. 55.000 /kg", "Bawang goreng", R.drawable.a7x),
-        Barang("Rp. 35.000 /pack", "Bumbu baso",  R.drawable.a7x),
-        Barang("Rp. 50.000 /pack", "Minyak bawang",  R.drawable.a7x),
-        Barang("Rp. 60.000 /kg", "Cengek kering",  R.drawable.a7x)
+        Barang("Rp. 55.000 /kg", "Bawang goreng", R.drawable.bawang),
+        Barang("Rp. 35.000 /pack", "Bumbu baso",  R.drawable.bumbu_baso),
+        Barang("Rp. 50.000 /pack", "Minyak bawang",  R.drawable.minyak_bawang),
+        Barang("Rp. 60.000 /kg", "Cengek kering",  R.drawable.cengek_kering)
     )
 
 

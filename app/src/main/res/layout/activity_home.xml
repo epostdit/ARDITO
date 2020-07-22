@@ -18,9 +18,9 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="42dp"
-            android:layout_marginEnd="75dp"
-            android:layout_marginRight="75dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="83dp"
+            android:layout_marginRight="83dp"
             app:srcCompat="@drawable/ardito" />
 
         <TextView
@@ -30,13 +30,28 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="14dp"
-            android:layout_marginLeft="14dp"
-            android:layout_marginTop="244dp"
+            android:layout_marginStart="106dp"
+            android:layout_marginLeft="106dp"
+            android:layout_marginTop="203dp"
             android:gravity="center_horizontal"
-            android:text="Hello... Aplikasi ini menyediakan bahan pangan untuk membuat aneka masakan"
+            android:text="SELAMAT DATANG"
             android:textAlignment="center"
-            android:textColor="@android:color/background_light" />
+            android:textColor="@android:color/background_light"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="246dp"
+            android:text="Aplikasi ini menyediakan berbagai macam baham pangan untuk bahan memasak, bisa dikirim secara online"
+            android:textAlignment="center"
+            android:textSize="15dp" />
     </RelativeLayout>
 
 </FrameLayout>

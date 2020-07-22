@@ -14,4 +14,6 @@ class BeliBarang : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.activity_beli_barang, container, false)
     }
+
+
 }
