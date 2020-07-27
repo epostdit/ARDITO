@@ -1,4 +1,4 @@
-package com.example.appardito
+package com.acuns.appardito
 
 /*
 Nim                 : 10117141
@@ -10,10 +10,6 @@ Kelas               : IF4
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.navigation.NavController
-import androidx.navigation.Navigation
-import androidx.navigation.ui.NavigationUI
-import androidx.navigation.ui.setupWithNavController
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

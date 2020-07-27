@@ -6,7 +6,7 @@
     app:startDestination="@id/splashActivity">
     <activity
         android:id="@+id/splashActivity"
-        android:name="com.example.appardito.SplashActivity"
+        android:name="com.acuns.appardito.SplashActivity"
         android:label="activity_splash"
         tools:layout="@layout/activity_splash" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.appardito
+package com.acuns.appardito
 
 /*
 Nim                 : 10117141
@@ -7,7 +7,6 @@ Kelas               : IF4
 
  */
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView

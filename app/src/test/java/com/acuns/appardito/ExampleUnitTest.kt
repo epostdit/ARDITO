@@ -1,4 +1,4 @@
-package com.example.appardito
+package com.acuns.appardito
 
 import org.junit.Test
 

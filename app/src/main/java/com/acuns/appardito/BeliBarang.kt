@@ -1,11 +1,4 @@
-package com.example.appardito
-
-/*
-Nim                 : 10117141
-Nama                : Aditya
-Kelas               : IF4
-
- */
+package com.acuns.appardito
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,12 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class HomeFragment : Fragment() {
+class BeliBarang : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.activity_home, container, false)
+        return inflater.inflate(R.layout.activity_beli_barang, container, false)
     }
+
+
 }

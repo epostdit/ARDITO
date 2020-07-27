@@ -1,4 +1,4 @@
-package com.example.appardito
+package com.acuns.appardito
 
 /*
 Tanggal Pengerjaan  : 13-05-2020
@@ -7,7 +7,6 @@ Nama                : Aditya
 Kelas               : IF4
 
  */
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View

@@ -1,4 +1,4 @@
-package com.example.appardito
+package com.acuns.appardito
 
 import android.content.Intent
 import android.os.Bundle
